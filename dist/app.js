@@ -24,5 +24,5 @@ routes_1.RegisterRoutes(app);
 // Register Swagger Route
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swagger));
 // Express Server
-const server = app.listen(3000);
+const server = app.listen(8080);
 exports.server = server;
